@@ -15,5 +15,6 @@ export function buildPlugins({
       filename: "css/[name].[contenthash].css",
       chunkFilename: "css/[name].[contenthash].css",
     }),
+    new webpack.HotModuleReplacementPlugin(),
   ];
 }
