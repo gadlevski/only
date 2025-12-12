@@ -1,0 +1,14 @@
+# JetBrains
+.idea/
+
+# Node
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+
+# OS
+.DS_Store
