@@ -8,11 +8,24 @@
     "allowJs": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "isolatedModules": true
   },
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "include": [
+    "config/**/*.ts",
+    "config/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "webpack.config.ts",
+    ".eslintrc.js",
+  ]
 }
